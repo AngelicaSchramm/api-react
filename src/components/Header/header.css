@@ -1,0 +1,30 @@
+
+header{
+    width: 100vw;
+    background-color: #fff;
+}
+
+nav{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    padding: 20px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+}

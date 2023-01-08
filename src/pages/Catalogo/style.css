@@ -1,0 +1,76 @@
+
+.postList{
+    width: 80vw;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post{
+    width: 30%;
+    flex: none;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.post img{
+    width: 100%;
+}
+
+.post .title{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.pagination{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pagination button{
+    padding: 2px 5px;
+    border: 1px solid #5C80BC;
+    border-radius: 5px;
+    color: #5C80BC;
+    background-color: #F8F7F9;
+    cursor: pointer;
+}
+
+.pagination button:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width:768px){
+    .post{
+        width: 45%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .postList{
+        width: 95vw;
+    }
+
+    .pagination{
+        width: 90%;
+        gap: 5px;
+    }
+}

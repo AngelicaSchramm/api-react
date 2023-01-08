@@ -1,0 +1,22 @@
+
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.catalogo-button{
+    background-color: #2a4c86;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+

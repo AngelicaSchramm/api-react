@@ -1,0 +1,83 @@
+.carousel{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel button{
+    width: 5%;  
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.carousel .carousel-cards{
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+    gap: calc( 4%/3);
+    padding: 5px 0;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.carousel .carousel-cards::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel .carousel-cards .card{
+    width: 32%;
+    flex: none;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.carousel .carousel-cards .card:hover{
+   transform: scale(1.02);
+
+}
+
+.carousel .carousel-cards .card img{
+    width: 100%;
+}
+
+.carousel .title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+ion-icon {
+    width: 100%;
+    font-size: 46px;
+}
+
+@media (max-width: 768px){
+    .carousel{
+        width: 90vw;
+    }
+
+    .carousel .carousel-card{
+        width: 80%;
+    }
+
+    .carousel .carousel-cards .card{
+        width: 100%;
+    }
+}
